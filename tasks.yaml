@@ -1,0 +1,7 @@
+- description: "Check weekly tasks"
+  tags: ["today"]
+  schedule: "0 4 * * 5"   # Every Friday at 4:00 AM
+
+- description: "Backup project files"
+  tags: ["maintenance"]
+  schedule: "30 2 * * 1"  # Every Monday at 2:30 AM
